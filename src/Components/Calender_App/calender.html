@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calender.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <select id="month">
+          <option>Select Month</option>
+          <option>JANUARY</option>
+          <option>FEBRUARY</option>
+          <option>MARCH</option>
+          <option>APRIL</option>
+          <option>MAY</option>
+          <option>JUNE</option>
+          <option>JULY</option>
+          <option>AUGUST</option>
+          <option>SEPTEMBER</option>
+          <option>OCTUBER</option>
+          <option>NOVEMBER</option>
+          <option>DECEMBER</option>
+        </select>
+
+        <select id="year">
+          <option value="">2001</option>
+          <option value="">2002</option>
+          <option value="">2003</option>
+          <option value="">2004</option>
+          <option value="">2005</option>
+          <option value="">2006</option>
+          <option value="">2007</option>
+          <option value="">2008</option>
+          <option value="">2009</option>
+          <option value="">2010</option>
+          <option value="">2011</option>
+          <option value="">2012</option>
+          <option value="">2013</option>
+          <option value="">2014</option>
+          <option value="">2015</option>
+          <option value="">2016</option>
+          <option value="">2017</option>
+          <option value="">2018</option>
+          <option value="">2019</option>
+          <option value="">2020</option>
+          <option value="">2021</option>
+          <option value="">2022</option>
+          <option value="">2023</option>
+          <option value="">2024</option>
+          <option value="">2025</option>
+          <option value="">2026</option>
+          <option value="">2027</option>
+          <option value="">2028</option>
+          <option value="">2029</option>
+          <option value="">2030</option>
+        </select>
+
+        <div>
+          <input type="text" id="input_feild" />
+          <button onclick="handleDate()">Enter</button>
+        </div>
+      </div>
+
+      <div class="calender">
+        <div class="calender_week_day">
+          <div>SUN</div>
+          <div>MON</div>
+          <div>TUE</div>
+          <div>WED</div>
+          <div>THRU</div>
+          <div>FRI</div>
+          <div>SAT</div>
+        </div>
+
+        <div class="calender_days"></div>
+        <div class="calender_month"></div>
+      </div>
+
+      <p id="date_str"></p>
+    </div>
+
+    <script src="calender.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+.container {
+  height: 9vh;
+  background-color: #4472c4;
+  color: #ffffff;
+  text-align: center;
+}
+
+section {
+  margin: 30px;
+  border: 1px solid #4472c4;
+  width: 90%;
+  height: auto;
+}
+
+.table thead,
+th {
+  margin: 20px;
+  padding: 10px;
+  background-color: #4472c4;
+  color: #ffffff;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table,
+td {
+  padding: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.top_btns {
+  width: auto;
+  background-color: #4472c4;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 10px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.data {
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.container_display {
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.container_display input[type="text"] {
+  padding: 10px;
+  width: 30%;
+}
+
+.container_display button {
+  background-color: #4472c4;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 10px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.head_tag {
+  width: 20%;
+  margin: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.add_Row_BTN button {
+  background-color: #4472c4;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  margin: 20px;
+  width: 100%;
+  margin-top: 20%;
+}
+.table {
+  border: none;
+}
